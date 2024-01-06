@@ -1,0 +1,7 @@
+D:\Study\PRN211\DynamicType\DynamicType\bin\Debug\DynamicType.exe.config
+D:\Study\PRN211\DynamicType\DynamicType\bin\Debug\DynamicType.exe
+D:\Study\PRN211\DynamicType\DynamicType\bin\Debug\DynamicType.pdb
+D:\Study\PRN211\DynamicType\DynamicType\obj\Debug\DynamicType.csproj.AssemblyReference.cache
+D:\Study\PRN211\DynamicType\DynamicType\obj\Debug\DynamicType.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\DynamicType\DynamicType\obj\Debug\DynamicType.exe
+D:\Study\PRN211\DynamicType\DynamicType\obj\Debug\DynamicType.pdb
