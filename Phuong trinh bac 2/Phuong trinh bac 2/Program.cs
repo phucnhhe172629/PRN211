@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Phuong_trinh_bac_2
 {
     internal class Program
     {
@@ -24,7 +24,7 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("VN");
                 }
-                else if (del == 0) 
+                else if (del == 0)
                 {
                     Console.WriteLine("x1 = x2 = " + (-b / (2 * a)));
                 }
