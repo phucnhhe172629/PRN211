@@ -1,7 +1,0 @@
-D:\Study\PRN211\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe.config
-D:\Study\PRN211\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe
-D:\Study\PRN211\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.pdb
-D:\Study\PRN211\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csproj.AssemblyReference.cache
-D:\Study\PRN211\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csproj.CoreCompileInputs.cache
-D:\Study\PRN211\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.exe
-D:\Study\PRN211\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.pdb

@@ -1,7 +1,0 @@
-D:\Study\PRN211\Calculator\Calculator\bin\Debug\Calculator.exe.config
-D:\Study\PRN211\Calculator\Calculator\bin\Debug\Calculator.exe
-D:\Study\PRN211\Calculator\Calculator\bin\Debug\Calculator.pdb
-D:\Study\PRN211\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
-D:\Study\PRN211\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-D:\Study\PRN211\Calculator\Calculator\obj\Debug\Calculator.exe
-D:\Study\PRN211\Calculator\Calculator\obj\Debug\Calculator.pdb

@@ -1,7 +1,0 @@
-D:\Study\PRN211\Pattern Matching\Pattern Matching\bin\Debug\Pattern Matching.exe.config
-D:\Study\PRN211\Pattern Matching\Pattern Matching\bin\Debug\Pattern Matching.exe
-D:\Study\PRN211\Pattern Matching\Pattern Matching\bin\Debug\Pattern Matching.pdb
-D:\Study\PRN211\Pattern Matching\Pattern Matching\obj\Debug\Pattern Matching.csproj.AssemblyReference.cache
-D:\Study\PRN211\Pattern Matching\Pattern Matching\obj\Debug\Pattern Matching.csproj.CoreCompileInputs.cache
-D:\Study\PRN211\Pattern Matching\Pattern Matching\obj\Debug\Pattern Matching.exe
-D:\Study\PRN211\Pattern Matching\Pattern Matching\obj\Debug\Pattern Matching.pdb

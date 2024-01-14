@@ -1,7 +1,0 @@
-D:\Study\PRN211\Passing Parameters\Passing Parameters\bin\Debug\Passing Parameters.exe.config
-D:\Study\PRN211\Passing Parameters\Passing Parameters\bin\Debug\Passing Parameters.exe
-D:\Study\PRN211\Passing Parameters\Passing Parameters\bin\Debug\Passing Parameters.pdb
-D:\Study\PRN211\Passing Parameters\Passing Parameters\obj\Debug\Passing Parameters.csproj.AssemblyReference.cache
-D:\Study\PRN211\Passing Parameters\Passing Parameters\obj\Debug\Passing Parameters.csproj.CoreCompileInputs.cache
-D:\Study\PRN211\Passing Parameters\Passing Parameters\obj\Debug\Passing Parameters.exe
-D:\Study\PRN211\Passing Parameters\Passing Parameters\obj\Debug\Passing Parameters.pdb

@@ -1,7 +1,0 @@
-D:\Study\PRN211\Discards\Discards\bin\Debug\Discards.exe.config
-D:\Study\PRN211\Discards\Discards\bin\Debug\Discards.exe
-D:\Study\PRN211\Discards\Discards\bin\Debug\Discards.pdb
-D:\Study\PRN211\Discards\Discards\obj\Debug\Discards.csproj.AssemblyReference.cache
-D:\Study\PRN211\Discards\Discards\obj\Debug\Discards.csproj.CoreCompileInputs.cache
-D:\Study\PRN211\Discards\Discards\obj\Debug\Discards.exe
-D:\Study\PRN211\Discards\Discards\obj\Debug\Discards.pdb
