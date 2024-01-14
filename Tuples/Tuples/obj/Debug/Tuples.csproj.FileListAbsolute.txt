@@ -1,0 +1,7 @@
+D:\Study\PRN211\Tuples\Tuples\bin\Debug\Tuples.exe.config
+D:\Study\PRN211\Tuples\Tuples\bin\Debug\Tuples.exe
+D:\Study\PRN211\Tuples\Tuples\bin\Debug\Tuples.pdb
+D:\Study\PRN211\Tuples\Tuples\obj\Debug\Tuples.csproj.AssemblyReference.cache
+D:\Study\PRN211\Tuples\Tuples\obj\Debug\Tuples.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Tuples\Tuples\obj\Debug\Tuples.exe
+D:\Study\PRN211\Tuples\Tuples\obj\Debug\Tuples.pdb
