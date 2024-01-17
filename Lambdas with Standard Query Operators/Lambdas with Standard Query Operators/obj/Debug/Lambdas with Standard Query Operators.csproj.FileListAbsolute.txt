@@ -1,0 +1,7 @@
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\bin\Debug\Lambdas with Standard Query Operators.exe.config
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\bin\Debug\Lambdas with Standard Query Operators.exe
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\bin\Debug\Lambdas with Standard Query Operators.pdb
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\obj\Debug\Lambdas with Standard Query Operators.csproj.AssemblyReference.cache
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\obj\Debug\Lambdas with Standard Query Operators.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\obj\Debug\Lambdas with Standard Query Operators.exe
+D:\Study\PRN211\Lambdas with Standard Query Operators\Lambdas with Standard Query Operators\obj\Debug\Lambdas with Standard Query Operators.pdb

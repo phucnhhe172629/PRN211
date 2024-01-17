@@ -1,0 +1,10 @@
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\bin\Debug\Giai PT bac 2 - Win form.exe.config
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\bin\Debug\Giai PT bac 2 - Win form.exe
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\bin\Debug\Giai PT bac 2 - Win form.pdb
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai PT bac 2 - Win form.csproj.AssemblyReference.cache
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai_PT_bac_2___Win_form.frmGiaiPTBac2.resources
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai_PT_bac_2___Win_form.Properties.Resources.resources
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai PT bac 2 - Win form.csproj.GenerateResource.cache
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai PT bac 2 - Win form.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai PT bac 2 - Win form.exe
+D:\Study\PRN211\Giai PT bac 2 - Win form\Giai PT bac 2 - Win form\obj\Debug\Giai PT bac 2 - Win form.pdb

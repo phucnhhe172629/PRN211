@@ -1,0 +1,7 @@
+D:\Study\PRN211\Implement Events\Implement Events\bin\Debug\Implement Events.exe.config
+D:\Study\PRN211\Implement Events\Implement Events\bin\Debug\Implement Events.exe
+D:\Study\PRN211\Implement Events\Implement Events\bin\Debug\Implement Events.pdb
+D:\Study\PRN211\Implement Events\Implement Events\obj\Debug\Implement Events.csproj.AssemblyReference.cache
+D:\Study\PRN211\Implement Events\Implement Events\obj\Debug\Implement Events.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Implement Events\Implement Events\obj\Debug\Implement Events.exe
+D:\Study\PRN211\Implement Events\Implement Events\obj\Debug\Implement Events.pdb

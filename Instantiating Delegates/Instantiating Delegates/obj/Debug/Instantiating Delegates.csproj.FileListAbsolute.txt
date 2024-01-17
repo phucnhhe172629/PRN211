@@ -1,0 +1,7 @@
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\bin\Debug\Instantiating Delegates.exe.config
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\bin\Debug\Instantiating Delegates.exe
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\bin\Debug\Instantiating Delegates.pdb
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\obj\Debug\Instantiating Delegates.csproj.AssemblyReference.cache
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\obj\Debug\Instantiating Delegates.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\obj\Debug\Instantiating Delegates.exe
+D:\Study\PRN211\Instantiating Delegates\Instantiating Delegates\obj\Debug\Instantiating Delegates.pdb

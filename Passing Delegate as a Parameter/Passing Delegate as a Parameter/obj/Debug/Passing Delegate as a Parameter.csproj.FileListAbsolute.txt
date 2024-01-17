@@ -1,0 +1,7 @@
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\bin\Debug\Passing Delegate as a Parameter.exe.config
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\bin\Debug\Passing Delegate as a Parameter.exe
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\bin\Debug\Passing Delegate as a Parameter.pdb
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\obj\Debug\Passing Delegate as a Parameter.csproj.AssemblyReference.cache
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\obj\Debug\Passing Delegate as a Parameter.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\obj\Debug\Passing Delegate as a Parameter.exe
+D:\Study\PRN211\Passing Delegate as a Parameter\Passing Delegate as a Parameter\obj\Debug\Passing Delegate as a Parameter.pdb

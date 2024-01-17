@@ -1,0 +1,7 @@
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\bin\Debug\Lambdas Expression.exe.config
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\bin\Debug\Lambdas Expression.exe
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\bin\Debug\Lambdas Expression.pdb
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\obj\Debug\Lambdas Expression.csproj.AssemblyReference.cache
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\obj\Debug\Lambdas Expression.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\obj\Debug\Lambdas Expression.exe
+D:\Study\PRN211\Lambdas Expression\Lambdas Expression\obj\Debug\Lambdas Expression.pdb

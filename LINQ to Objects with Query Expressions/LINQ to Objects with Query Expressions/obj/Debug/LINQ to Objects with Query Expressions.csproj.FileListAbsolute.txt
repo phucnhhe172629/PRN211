@@ -1,0 +1,7 @@
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\bin\Debug\LINQ to Objects with Query Expressions.exe.config
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\bin\Debug\LINQ to Objects with Query Expressions.exe
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\bin\Debug\LINQ to Objects with Query Expressions.pdb
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\obj\Debug\LINQ to Objects with Query Expressions.csproj.AssemblyReference.cache
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\obj\Debug\LINQ to Objects with Query Expressions.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\obj\Debug\LINQ to Objects with Query Expressions.exe
+D:\Study\PRN211\LINQ to Objects with Query Expressions\LINQ to Objects with Query Expressions\obj\Debug\LINQ to Objects with Query Expressions.pdb
