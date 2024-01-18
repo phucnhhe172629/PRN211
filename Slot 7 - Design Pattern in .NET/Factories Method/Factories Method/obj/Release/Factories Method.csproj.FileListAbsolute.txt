@@ -1,0 +1,7 @@
+D:\Study\PRN211\Factories Method\Factories Method\bin\Release\Factories Method.exe.config
+D:\Study\PRN211\Factories Method\Factories Method\bin\Release\Factories Method.exe
+D:\Study\PRN211\Factories Method\Factories Method\bin\Release\Factories Method.pdb
+D:\Study\PRN211\Factories Method\Factories Method\obj\Release\Factories Method.csproj.AssemblyReference.cache
+D:\Study\PRN211\Factories Method\Factories Method\obj\Release\Factories Method.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Factories Method\Factories Method\obj\Release\Factories Method.exe
+D:\Study\PRN211\Factories Method\Factories Method\obj\Release\Factories Method.pdb
