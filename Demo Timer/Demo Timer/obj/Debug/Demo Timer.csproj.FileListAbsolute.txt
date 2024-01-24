@@ -1,0 +1,10 @@
+D:\Study\PRN211\Demo Timer\Demo Timer\bin\Debug\Demo Timer.exe.config
+D:\Study\PRN211\Demo Timer\Demo Timer\bin\Debug\Demo Timer.exe
+D:\Study\PRN211\Demo Timer\Demo Timer\bin\Debug\Demo Timer.pdb
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo Timer.csproj.AssemblyReference.cache
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo_Timer.Form1.resources
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo_Timer.Properties.Resources.resources
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo Timer.csproj.GenerateResource.cache
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo Timer.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo Timer.exe
+D:\Study\PRN211\Demo Timer\Demo Timer\obj\Debug\Demo Timer.pdb

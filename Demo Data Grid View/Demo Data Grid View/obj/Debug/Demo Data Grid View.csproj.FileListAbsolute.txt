@@ -1,0 +1,10 @@
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\bin\Debug\Demo Data Grid View.exe.config
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\bin\Debug\Demo Data Grid View.exe
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\bin\Debug\Demo Data Grid View.pdb
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo Data Grid View.csproj.AssemblyReference.cache
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo_Data_Grid_View.Form1.resources
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo_Data_Grid_View.Properties.Resources.resources
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo Data Grid View.csproj.GenerateResource.cache
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo Data Grid View.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo Data Grid View.exe
+D:\Study\PRN211\Demo Data Grid View\Demo Data Grid View\obj\Debug\Demo Data Grid View.pdb

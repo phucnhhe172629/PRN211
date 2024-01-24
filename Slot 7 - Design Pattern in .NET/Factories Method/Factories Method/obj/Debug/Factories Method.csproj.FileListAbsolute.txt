@@ -5,3 +5,10 @@ D:\Study\PRN211\Factories Method\Factories Method\obj\Debug\Factories Method.csp
 D:\Study\PRN211\Factories Method\Factories Method\obj\Debug\Factories Method.csproj.CoreCompileInputs.cache
 D:\Study\PRN211\Factories Method\Factories Method\obj\Debug\Factories Method.exe
 D:\Study\PRN211\Factories Method\Factories Method\obj\Debug\Factories Method.pdb
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\bin\Debug\Factories Method.exe.config
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\bin\Debug\Factories Method.exe
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\bin\Debug\Factories Method.pdb
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\obj\Debug\Factories Method.csproj.AssemblyReference.cache
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\obj\Debug\Factories Method.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\obj\Debug\Factories Method.exe
+D:\Study\PRN211\Slot 7 - Design Pattern in .NET\Factories Method\Factories Method\obj\Debug\Factories Method.pdb

@@ -1,0 +1,11 @@
+D:\Study\PRN211\Employee Details\Employee Details\bin\Debug\Employee Details.exe.config
+D:\Study\PRN211\Employee Details\Employee Details\bin\Debug\Employee Details.exe
+D:\Study\PRN211\Employee Details\Employee Details\bin\Debug\Employee Details.pdb
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee Details.csproj.AssemblyReference.cache
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee_Details.frmEmployeeDetails.resources
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee_Details.Properties.Resources.resources
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee Details.csproj.GenerateResource.cache
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee Details.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee Details.exe
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee Details.pdb
+D:\Study\PRN211\Employee Details\Employee Details\obj\Debug\Employee_Details.Item.resources
