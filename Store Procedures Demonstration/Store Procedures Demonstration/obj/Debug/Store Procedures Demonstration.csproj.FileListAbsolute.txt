@@ -1,0 +1,7 @@
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\bin\Debug\Store Procedures Demonstration.exe.config
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\bin\Debug\Store Procedures Demonstration.exe
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\bin\Debug\Store Procedures Demonstration.pdb
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\obj\Debug\Store Procedures Demonstration.csproj.AssemblyReference.cache
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\obj\Debug\Store Procedures Demonstration.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\obj\Debug\Store Procedures Demonstration.exe
+D:\Study\PRN211\Store Procedures Demonstration\Store Procedures Demonstration\obj\Debug\Store Procedures Demonstration.pdb

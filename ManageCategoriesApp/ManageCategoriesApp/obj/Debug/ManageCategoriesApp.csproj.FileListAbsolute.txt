@@ -1,0 +1,10 @@
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\bin\Debug\ManageCategoriesApp.exe.config
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\bin\Debug\ManageCategoriesApp.exe
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\bin\Debug\ManageCategoriesApp.pdb
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.csproj.AssemblyReference.cache
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.frmManageCategories.resources
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.Properties.Resources.resources
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.csproj.GenerateResource.cache
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.exe
+D:\Study\PRN211\ManageCategoriesApp\ManageCategoriesApp\obj\Debug\ManageCategoriesApp.pdb

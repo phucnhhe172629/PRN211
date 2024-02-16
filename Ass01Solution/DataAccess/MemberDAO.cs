@@ -10,20 +10,20 @@ namespace DataAccess
     {
         private static List<MemberObject> MemberList = new List<MemberObject>()
         {
-            new MemberObject{ID = 2, Name = "Nguyen Thi Lan", Email = "lannguyen89@gmail.com", Password = "password123", City = "Ho Chi Minh City", Country = "Viet Nam"},
-            new MemberObject{ID = 3, Name = "Tran Van Minh", Email = "minhtran25@yahoo.com", Password = "abc12345", City = "Da Nang", Country = "Viet Nam"},
-            new MemberObject{ID = 4, Name = "Le Thi Thuy", Email = "thuy.le@fpt.edu.vn", Password = "thuyduong98", City = "Ha Noi", Country = "Viet Nam"},
-            new MemberObject{ID = 5, Name = "Ngo Duc Anh", Email = "ducanhngo@hotmail.com", Password = "lovemusic77", City = "Can Tho", Country = "Viet Nam"},
-            new MemberObject{ID = 6, Name = "Pham Thi Huong", Email = "huong.pham12@gmail.com", Password = "rosegarden", City = "Hai Phong", Country = "Viet Nam"},
-            new MemberObject{ID = 7, Name = "Ayana Tanaka", Email = "ayana.tanaka@japanmail.jp", Password = "sakurabloom", City = "Tokyo", Country = "Japan"},
-            new MemberObject{ID = 8, Name = "Jean DuBois", Email = "jean.dubois@orange.fr", Password = "baguette123", City = "Paris", Country = "France"},
-            new MemberObject{ID = 9, Name = "Maria Fernandez", Email = "maria.fernandez@hotmail.es", Password = "flamenco20", City = "Madrid", Country = "Spain"},
-            new MemberObject{ID = 10, Name = "Lukas Schmidt", Email = "lukas.schmidt@gmx.de", Password = "edelweiss789", City = "Berlin", Country = "Germany"},
-            new MemberObject{ID = 11, Name = "Elena Petrova", Email = "elena.petrova@mail.ru", Password = "matryoshka14", City = "Moscow", Country = "Russia"},
-            new MemberObject{ID = 12, Name = "Ayesha Ali", Email = "ayesha.ali@pakistanmail.pk", Password = "chaiandcricket", City = "Islamabad", Country = "Pakistan"},
-            new MemberObject{ID = 13, Name = "Omar Hernandez", Email = "omar.hernandez@yahoo.com.mx", Password = "fiestadelsol", City = "Mexico City", Country = "Mexico"},
-            new MemberObject{ID = 14, Name = "David Miller", Email = "david.miller@bigpond.com", Password = "kangaroohop", City = "Sydney", Country = "Australia"},
-            new MemberObject{ID = 15, Name = "Lin Wang", Email = "lin.wang@qq.com", Password = "greatwall888", City = "Beijing", Country = "China"},
+            new MemberObject{ID = 2, Name = "Nguyen Thi Lan", Email = "lannguyen89@gmail.com", Password = "1", City = "Ho Chi Minh City", Country = "Viet Nam"},
+            new MemberObject{ID = 3, Name = "Tran Van Minh", Email = "minhtran25@yahoo.com", Password = "1", City = "Da Nang", Country = "Viet Nam"},
+            new MemberObject{ID = 4, Name = "Le Thi Thuy", Email = "thuy.le@fpt.edu.vn", Password = "1", City = "Ha Noi", Country = "Viet Nam"},
+            new MemberObject{ID = 5, Name = "Ngo Duc Anh", Email = "ducanhngo@hotmail.com", Password = "1", City = "Can Tho", Country = "Viet Nam"},
+            new MemberObject{ID = 6, Name = "Pham Thi Huong", Email = "huong.pham12@gmail.com", Password = "1", City = "Hai Phong", Country = "Viet Nam"},
+            new MemberObject{ID = 7, Name = "Ayana Tanaka", Email = "ayana.tanaka@japanmail.jp", Password = "1", City = "Tokyo", Country = "Japan"},
+            new MemberObject{ID = 8, Name = "Jean DuBois", Email = "jean.dubois@orange.fr", Password = "1", City = "Paris", Country = "France"},
+            new MemberObject{ID = 9, Name = "Maria Fernandez", Email = "maria.fernandez@hotmail.es", Password = "1", City = "Madrid", Country = "Spain"},
+            new MemberObject{ID = 10, Name = "Lukas Schmidt", Email = "lukas.schmidt@gmx.de", Password = "1", City = "Berlin", Country = "Germany"},
+            new MemberObject{ID = 11, Name = "Elena Petrova", Email = "elena.petrova@mail.ru", Password = "1", City = "Moscow", Country = "Russia"},
+            new MemberObject{ID = 12, Name = "Ayesha Ali", Email = "ayesha.ali@pakistanmail.pk", Password = "1", City = "Islamabad", Country = "Pakistan"},
+            new MemberObject{ID = 13, Name = "Omar Hernandez", Email = "omar.hernandez@yahoo.com.mx", Password = "1", City = "Mexico City", Country = "Mexico"},
+            new MemberObject{ID = 14, Name = "David Miller", Email = "david.miller@bigpond.com", Password = "1", City = "Sydney", Country = "Australia"},
+            new MemberObject{ID = 15, Name = "Lin Wang", Email = "lin.wang@qq.com", Password = "1   ", City = "Beijing", Country = "China"},
         };
 
         // Using Singleton Pattern

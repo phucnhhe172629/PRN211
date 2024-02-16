@@ -1,0 +1,10 @@
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\bin\Debug\DemoDisconnectedLayer.exe.config
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\bin\Debug\DemoDisconnectedLayer.exe
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\bin\Debug\DemoDisconnectedLayer.pdb
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.csproj.AssemblyReference.cache
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.frmMyStore.resources
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.Properties.Resources.resources
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.csproj.GenerateResource.cache
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.exe
+D:\Study\PRN211\DemoDisconnectedLayer\DemoDisconnectedLayer\obj\Debug\DemoDisconnectedLayer.pdb
