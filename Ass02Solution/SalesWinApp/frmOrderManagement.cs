@@ -19,6 +19,9 @@ namespace SalesWinApp
         IOrderDetailRepository OrderDetailRepository = new OrderDetailRepository();
         //create data source
         BindingSource source;
+        public IMemberRepository MemberRepository { get; set; }
+        public Member MemberInfo { get; set; }
+        public Boolean isAdmin { get; set; }
         public frmOrderManagement()
         {
             InitializeComponent();
@@ -27,6 +30,10 @@ namespace SalesWinApp
         private void frmOrderManagement_Load(object sender, EventArgs e)
         {
             btnDelete.Enabled = false;
+            if (!isAdmin)
+            {
+                btnCreate.Enabled = false;
+            }
             //Register this event to open the frmOrderDetail form that performs updating
             dgvOrderList.CellDoubleClick += dgvOrder_CellDoubleClick;
         }
@@ -37,7 +44,7 @@ namespace SalesWinApp
             {
                 Text = "Update Order",
                 InsertOrUpdate = true,
-                isAdmin = true,
+                isAdmin = isAdmin,
                 OrderInfo = GetOrder(),
                 OrderDetailInfo = GetOrderDetail(),
                 OrderRepository = OrderRepository,
@@ -142,7 +149,17 @@ namespace SalesWinApp
 
         }
 
-        private void btnLoad_Click(object sender, EventArgs e) => LoadOrderList(OrderRepository.GetOrders().OrderBy(o => o.OrderId));
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            if (isAdmin)
+            {
+                LoadOrderList(OrderRepository.GetOrders().OrderBy(o => o.OrderId));
+            }
+            else
+            {
+                LoadOrderList(OrderRepository.GetOrdersByMemberId(MemberInfo.MemberId).OrderBy(o => o.OrderId));
+            }
+        }
 
         private void btnClose_Click(object sender, EventArgs e) => Close();
 
@@ -185,7 +202,7 @@ namespace SalesWinApp
             {
                 Text = "Update Order",
                 InsertOrUpdate = true,
-                isAdmin = true,
+                isAdmin = isAdmin,
                 OrderInfo = GetOrder(),
                 OrderDetailInfo = GetOrderDetail(),
                 OrderRepository = OrderRepository,

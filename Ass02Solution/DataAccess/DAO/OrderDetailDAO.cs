@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,8 +28,17 @@ namespace DataAccess.DAO
             }
         }
 
-        public IEnumerable<OrderDetail> GetOrderDetailList() => OrderDetails.ToList();
-        public OrderDetail GetOrderDetailByID(int id) => OrderDetails.SingleOrDefault(o => o.OrderId == id);
+        public IEnumerable<OrderDetail> GetOrderDetailList()
+        {
+            using FStoreContext context = new FStoreContext();
+            return context.OrderDetails.ToList();
+        }
+
+        public OrderDetail GetOrderDetailByID(int id)
+        {
+            return OrderDetails.SingleOrDefault(o => o.OrderId == id);
+        }
+
         public void AddNew(OrderDetail orderDetail)
         {
             OrderDetails.Add(orderDetail);

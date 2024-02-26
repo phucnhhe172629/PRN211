@@ -32,6 +32,11 @@ namespace DataAccess.DAO
             using FStoreContext context = new FStoreContext();
             return context.Orders.ToList();
         }
+        public IEnumerable<Order> GetOrderListByMemberId(int MemberId)
+        {
+            using FStoreContext context = new FStoreContext();
+            return context.Orders.ToList().FindAll(o => o.MemberId == MemberId);
+        }
         public Order GetOrderByID(int id) => Orders.SingleOrDefault(m => m.OrderId == id);
         public void AddNew(Order order)
         {

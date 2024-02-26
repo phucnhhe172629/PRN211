@@ -18,6 +18,7 @@ namespace DataAccess.Repository
         IEnumerable<Product> GetProductListById(string Id);
         IEnumerable<Product> GetProductListByUnitPrice(int Price);
         IEnumerable<Product> GetProductListByUnitInStock(int Number);
-        public int GetProductIdByName(string Name);
+        int GetProductIdByName(string Name);
+        void BuyProduct(string Name, int Quantity);
     }
 }

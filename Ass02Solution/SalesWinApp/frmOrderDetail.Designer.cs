@@ -57,7 +57,7 @@
             txtOrderDate.Location = new Point(538, 97);
             txtOrderDate.Name = "txtOrderDate";
             txtOrderDate.Size = new Size(250, 27);
-            txtOrderDate.TabIndex = 2;
+            txtOrderDate.TabIndex = 6;
             // 
             // lbOrderDate
             // 
@@ -114,7 +114,7 @@
             txtRequiredDate.Location = new Point(538, 147);
             txtRequiredDate.Name = "txtRequiredDate";
             txtRequiredDate.Size = new Size(250, 27);
-            txtRequiredDate.TabIndex = 3;
+            txtRequiredDate.TabIndex = 7;
             // 
             // lbShippedDate
             // 
@@ -130,7 +130,7 @@
             txtShippedDate.Location = new Point(538, 197);
             txtShippedDate.Name = "txtShippedDate";
             txtShippedDate.Size = new Size(250, 27);
-            txtShippedDate.TabIndex = 4;
+            txtShippedDate.TabIndex = 8;
             // 
             // btnSave
             // 
@@ -138,7 +138,7 @@
             btnSave.Location = new Point(253, 306);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(125, 50);
-            btnSave.TabIndex = 5;
+            btnSave.TabIndex = 10;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
             btnSave.Click += btnSave_Click;
@@ -149,7 +149,7 @@
             btnCancel.Location = new Point(490, 306);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(125, 50);
-            btnCancel.TabIndex = 6;
+            btnCancel.TabIndex = 11;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Click += btnCancel_Click;
@@ -168,7 +168,7 @@
             txtFreight.Location = new Point(538, 46);
             txtFreight.Name = "txtFreight";
             txtFreight.Size = new Size(250, 27);
-            txtFreight.TabIndex = 4;
+            txtFreight.TabIndex = 5;
             // 
             // lbUnitPrice
             // 
@@ -225,7 +225,7 @@
             txtDiscount.Location = new Point(538, 248);
             txtDiscount.Name = "txtDiscount";
             txtDiscount.Size = new Size(250, 27);
-            txtDiscount.TabIndex = 4;
+            txtDiscount.TabIndex = 9;
             // 
             // cbProductName
             // 
@@ -234,7 +234,7 @@
             cbProductName.Location = new Point(140, 148);
             cbProductName.Name = "cbProductName";
             cbProductName.Size = new Size(250, 28);
-            cbProductName.TabIndex = 7;
+            cbProductName.TabIndex = 2;
             cbProductName.SelectedIndexChanged += cbProductID_SelectedIndexChanged;
             // 
             // frmOrderDetail

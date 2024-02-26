@@ -32,7 +32,7 @@ namespace SalesWinApp
                 frmMemberManagement.ShowDialog();
                 this.Show();
             }
-            if (!isAdmin)
+            else
             {
                 this.Hide();
                 frmMemberDetail frmMemberDetails = new frmMemberDetail()
@@ -58,7 +58,15 @@ namespace SalesWinApp
             }
             else
             {
-
+                this.Hide();
+                frmOrderManagement frmOrderManagement = new frmOrderManagement()
+                {
+                    isAdmin = false,
+                    MemberInfo = MemberInfo,
+                    MemberRepository = MemberRepository
+                };
+                frmOrderManagement.ShowDialog();
+                this.Show();
             }
         }
 

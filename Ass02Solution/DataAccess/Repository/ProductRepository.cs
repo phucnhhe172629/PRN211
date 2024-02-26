@@ -30,5 +30,7 @@ namespace DataAccess.Repository
         public IEnumerable<Product> GetProductListByUnitPrice(int Price) => ProductDAO.Instance.GetProductListByUnitPrice(Price);
 
         public int GetProductIdByName(string Name) => ProductDAO.Instance.GetProductIdByName(Name);
+
+        public void BuyProduct(string Name, int Quantity) => ProductDAO.Instance.BuyProduct(Name, Quantity);
     }
 }

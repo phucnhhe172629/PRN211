@@ -88,5 +88,12 @@ namespace DataAccess.DAO
             using FStoreContext context = new FStoreContext();
             return context.Products.FirstOrDefault(p => p.ProductName.Equals(Name)).ProductId;
         }
+
+        public void BuyProduct(string Name, int Quantity)
+        {
+            using FStoreContext context = new FStoreContext();
+            context.Products.FirstOrDefault(p => p.ProductName.Equals(Name)).UnitsInStock -= Quantity;
+            SaveChanges();
+        }
     }
 }

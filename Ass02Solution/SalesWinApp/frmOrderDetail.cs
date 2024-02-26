@@ -52,6 +52,19 @@ namespace SalesWinApp
                 cbProductName.SelectedItem = cbProductName.Items.Cast<object>()
                     .FirstOrDefault(i => i.Equals(ProductRepository.GetProductByID(OrderDetailInfo.ProductId).ProductName));
             }
+            if (!isAdmin)
+            {
+                txtMemberID.Enabled = false;
+                txtOrderDate.Enabled = false;
+                txtRequiredDate.Enabled = false;
+                txtShippedDate.Enabled = false;
+                txtFreight.Enabled = false;
+                txtQuantity.Enabled = false;
+                txtDiscount.Enabled = false;
+                cbProductName.Enabled = false;
+
+                btnSave.Enabled = false;
+            }
         }
 
         // Save function
@@ -79,6 +92,7 @@ namespace SalesWinApp
                         Discount = double.Parse(txtDiscount.Text),
                     };
                     OrderDetailRepository.InsertOrderDetail(OrderDetail);
+                    ProductRepository.BuyProduct(cbProductName.Text, int.Parse(txtQuantity.Text));
                 }
                 else
                 {
@@ -101,6 +115,7 @@ namespace SalesWinApp
                         Discount = double.Parse(txtDiscount.Text),
                     };
                     OrderDetailRepository.UpdateOrderDetail(OrderDetail);
+                    ProductRepository.BuyProduct(cbProductName.Text, int.Parse(txtQuantity.Text) - OrderDetailInfo.Quantity);
                 }
             }
             catch (Exception ex)

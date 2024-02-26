@@ -10,6 +10,7 @@ namespace DataAccess.Repository
     public interface IOrderRepository
     {
         IEnumerable<Order> GetOrders();
+        IEnumerable<Order> GetOrdersByMemberId(int MemberId);
         Order GetOrderByID(int Id);
         void InsertOrder(Order order);
         void DeleteOrder(int Id);
