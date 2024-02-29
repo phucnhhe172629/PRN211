@@ -1,10 +1,13 @@
 ﻿using BusinessObject;
 using DataAccess.Repository;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -33,6 +36,7 @@ namespace SalesWinApp
             if (!isAdmin)
             {
                 btnCreate.Enabled = false;
+                btnDelete.Enabled = false;
             }
             //Register this event to open the frmOrderDetail form that performs updating
             dgvOrderList.CellDoubleClick += dgvOrder_CellDoubleClick;
@@ -165,18 +169,26 @@ namespace SalesWinApp
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            frmOrderDetail frmOrderDetail = new frmOrderDetail
+            if(isAdmin)
             {
-                Text = "Add Order",
-                InsertOrUpdate = false,
-                OrderRepository = OrderRepository,
-                OrderDetailRepository = OrderDetailRepository,
-            };
-            if (frmOrderDetail.ShowDialog() == DialogResult.OK)
+                frmOrderDetail frmOrderDetail = new frmOrderDetail
+                {
+                    Text = "Add Order",
+                    InsertOrUpdate = false,
+                    isAdmin = true,
+                    OrderRepository = OrderRepository,
+                    OrderDetailRepository = OrderDetailRepository,
+                };
+                if (frmOrderDetail.ShowDialog() == DialogResult.OK)
+                {
+                    LoadOrderList(OrderRepository.GetOrders());
+                    //Set focus Order inserted
+                    source.Position = source.Count - 1;
+                }
+            }
+            else
             {
-                LoadOrderList(OrderRepository.GetOrders());
-                //Set focus Order inserted
-                source.Position = source.Count - 1;
+                MessageBox.Show("You do not have sufficient access permissions", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -212,7 +224,53 @@ namespace SalesWinApp
             {
                 LoadOrderList(OrderRepository.GetOrders());
                 //set focus Order updated
-                source.Position = source.Position ;
+                source.Position = source.Position;
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            if (isAdmin)
+            {
+                LoadOrderList(OrderRepository.SearchByOrderDate(DateTime.Parse(txtFrom.Text), DateTime.Parse(txtTo.Text)).OrderBy(o => o.OrderId));
+            }
+            else
+            {
+                LoadOrderList((IEnumerable<Order>)OrderRepository
+                    .SearchByOrderDate(DateTime.Parse(txtFrom.Text), DateTime.Parse(txtTo.Text))
+                    .OrderBy(o => o.OrderId)
+                    .ToList()
+                    .Find(o => o.MemberId == MemberInfo.MemberId));
+            }
+        }
+
+        private void btnSort_Click(object sender, EventArgs e)
+        {
+            if (btnSort.Text.Equals("DESC"))
+            {
+                if (isAdmin)
+                {
+                    LoadOrderList(OrderRepository.GetOrders().OrderBy(o => o.OrderId));
+                    btnSort.Text = "ASC";
+                }
+                else
+                {
+                    LoadOrderList(OrderRepository.GetOrdersByMemberId(MemberInfo.MemberId).OrderBy(o => o.OrderId));
+                    btnSort.Text = "ASC";
+                }
+            }
+            else
+            {
+                if (isAdmin)
+                {
+                    LoadOrderList(OrderRepository.GetOrders().OrderByDescending(o => o.OrderId));
+                    btnSort.Text = "DESC";
+                }
+                else
+                {
+                    LoadOrderList(OrderRepository.GetOrdersByMemberId(MemberInfo.MemberId).OrderByDescending(o => o.OrderId));
+                    btnSort.Text = "DESC";
+                }
             }
         }
     }

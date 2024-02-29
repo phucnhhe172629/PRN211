@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             menuStrip1 = new MenuStrip();
-            homeToolStripMenuItem = new ToolStripMenuItem();
-            managementMemberToolStripMenuItem = new ToolStripMenuItem();
-            managementOrderToolStripMenuItem = new ToolStripMenuItem();
-            managementProductToolStripMenuItem = new ToolStripMenuItem();
             tsmMember = new ToolStripMenuItem();
             tsmOrder = new ToolStripMenuItem();
             tsmProduct = new ToolStripMenuItem();
@@ -44,37 +40,12 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { homeToolStripMenuItem, tsmMember, tsmOrder, tsmProduct, logOutToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tsmMember, tsmOrder, tsmProduct, logOutToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(645, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
-            // 
-            // homeToolStripMenuItem
-            // 
-            homeToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { managementMemberToolStripMenuItem, managementOrderToolStripMenuItem, managementProductToolStripMenuItem });
-            homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            homeToolStripMenuItem.Size = new Size(64, 24);
-            homeToolStripMenuItem.Text = "Home";
-            // 
-            // managementMemberToolStripMenuItem
-            // 
-            managementMemberToolStripMenuItem.Name = "managementMemberToolStripMenuItem";
-            managementMemberToolStripMenuItem.Size = new Size(240, 26);
-            managementMemberToolStripMenuItem.Text = "Management Member";
-            // 
-            // managementOrderToolStripMenuItem
-            // 
-            managementOrderToolStripMenuItem.Name = "managementOrderToolStripMenuItem";
-            managementOrderToolStripMenuItem.Size = new Size(240, 26);
-            managementOrderToolStripMenuItem.Text = "Management Order";
-            // 
-            // managementProductToolStripMenuItem
-            // 
-            managementProductToolStripMenuItem.Name = "managementProductToolStripMenuItem";
-            managementProductToolStripMenuItem.Size = new Size(240, 26);
-            managementProductToolStripMenuItem.Text = "Management Product";
             // 
             // tsmMember
             // 
@@ -134,10 +105,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem managementMemberToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem managementOrderToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem managementProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmMember;
         private System.Windows.Forms.ToolStripMenuItem tsmOrder;
         private System.Windows.Forms.ToolStripMenuItem tsmProduct;

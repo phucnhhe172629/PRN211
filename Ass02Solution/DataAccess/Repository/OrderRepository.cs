@@ -21,5 +21,7 @@ namespace DataAccess.Repository
         public void InsertOrder(Order order) => OrderDAO.Instance.AddNew(order);
 
         public void UpdateOrder(Order order) => OrderDAO.Instance.Update(order);
+
+        public IEnumerable<Order> SearchByOrderDate(DateTime date1, DateTime date2) => OrderDAO.Instance.SearchByOrderDate(date1, date2);
     }
 }

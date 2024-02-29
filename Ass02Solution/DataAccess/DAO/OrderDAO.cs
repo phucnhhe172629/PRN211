@@ -1,6 +1,9 @@
 ﻿using BusinessObject;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,6 +57,12 @@ namespace DataAccess.DAO
         {
             Orders.Remove(GetOrderByID(id));
             SaveChanges();
+        }
+
+        public List<Order> SearchByOrderDate(DateTime date1, DateTime date2)
+        {
+            using FStoreContext context = new FStoreContext();
+            return context.Orders.ToList().FindAll(o => o.OrderDate >= date1 && o.OrderDate <= date2);
         }
     }
 }
