@@ -1,0 +1,15 @@
+D:\Study\PRN211\Automobile\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.deps.json
+D:\Study\PRN211\Automobile\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.runtimeconfig.json
+D:\Study\PRN211\Automobile\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.dll
+D:\Study\PRN211\Automobile\AutomobileLibrary\bin\Debug\net6.0\AutomobileLibrary.pdb
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.csproj.AssemblyReference.cache
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.AssemblyInfoInputs.cache
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.AssemblyInfo.cs
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.csproj.CoreCompileInputs.cache
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.sourcelink.json
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.dll
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\refint\AutomobileLibrary.dll
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.pdb
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\AutomobileLibrary.genruntimeconfig.cache
+D:\Study\PRN211\Automobile\AutomobileLibrary\obj\Debug\net6.0\ref\AutomobileLibrary.dll
