@@ -55,6 +55,8 @@ namespace SalesWinApp
                 frmOrderManagement frmOrderManagement = new frmOrderManagement()
                 {
                     isAdmin = true,
+                    MemberInfo = MemberInfo,
+                    MemberRepository = MemberRepository
                 };
                 frmOrderManagement.ShowDialog();
                 this.Show();
