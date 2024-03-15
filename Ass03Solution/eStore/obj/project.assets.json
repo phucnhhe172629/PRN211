@@ -5974,11 +5974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\eStore\\eStore.csproj",
+      "projectUniqueName": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj",
       "projectName": "eStore",
-      "projectPath": "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\eStore\\eStore.csproj",
+      "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj",
       "packagesPath": "C:\\Users\\phuc0\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\eStore\\obj\\",
+      "outputPath": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phuc0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5995,11 +5995,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\BusinessObject\\BusinessObject.csproj"
+            "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj"
             },
-            "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\DataAccess\\DataAccess.csproj"
+            "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj"
             }
           }
         }

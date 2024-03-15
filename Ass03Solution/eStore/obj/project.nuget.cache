@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jxjYZbEk+MlzRk1vIVh0FDt85Hrzi1Z7vtru1r8uVX4TBM2/gbZ5m7MasZ8yWmtK0mEmcVZNbeHKGs5RVjoo7A==",
+  "dgSpecHash": "k/gLh4GkcHmw9T4REE04aH8SihTpOTToPAW6BWOycJKJqdJosbjlwLQ5+lWzH7AEX6cn+WnlFiLmILBDaBJWBA==",
   "success": true,
-  "projectFilePath": "D:\\Downloads\\Ass03Solution-main\\Ass03Solution-main\\eStore\\eStore.csproj",
+  "projectFilePath": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phuc0\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\phuc0\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
