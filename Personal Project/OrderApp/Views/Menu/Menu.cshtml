@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Menu/Layout/_MenuLayout.cshtml";
+    var products = ViewBag.Products as List<BusinessObject.Product>;
+    var categories = ViewBag.Categories as List<BusinessObject.Category>;
+    int billId = ViewBag.BillId;
+}
+
+<section id="Menu" class="page-section page">
+    <div class="container text-center">
+        <div class="heading">
+            <h2>Dishes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="portfolio">
+                    <ul class="filters list-inline">
+                        <li> <a class="active" data-filter="*" href="#">Tất cả</a> </li>
+
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a data-filter=".1" href="#">Khai vị</a>
+                                </button>
+                                <div class="dropdown-menu">
+                                    @foreach (var item in categories)
+                                    {
+                                        if (@item.CategoryMain == 1)
+                                        {
+                                            <a data-filter=".@item.CategoryName" class="dropdown-item" href="#">@item.CategoryName</a>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a data-filter=".2" href="#">Món chính</a>
+                                </button>
+                                <div class="dropdown-menu">
+                                    @foreach (var item in categories)
+                                    {
+                                        if (@item.CategoryMain == 2)
+                                        {
+                                            <a data-filter=".@item.CategoryName" class="dropdown-item" href="#">@item.CategoryName</a>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a data-filter=".3" href="#">Tráng miệng</a>
+                                </button>
+                                <div class="dropdown-menu">
+                                    @foreach (var item in categories)
+                                    {
+                                        if (@item.CategoryMain == 3)
+                                        {
+                                            <a data-filter=".@item.CategoryName" class="dropdown-item" href="#">@item.CategoryName</a>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
+                        @foreach (var p in products)
+                        {
+                            @foreach(var c in categories)
+                            {
+                                if(p.CategoryId == c.CategoryId)
+                                {
+                                    <li class="item @c.CategoryName @c.CategoryMain" style="position: absolute; left: 0px; top: 0px;">
+                                        <a href="/Menu/PlaceOrder?pid=@p.ProductId&bid=@billId">
+                                            <img src="@p.Image" alt="">
+                                            <div class="overlay"> <span>@p.ProductName</span> </div>
+                                        </a>
+                                    </li>
+                                }
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

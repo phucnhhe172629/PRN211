@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj": {}
+    "D:\\Study\\PRN211\\Asm03Solution\\eStore\\eStore.csproj": {}
   },
   "projects": {
-    "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\phuc0\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\obj\\",
+        "outputPath": "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phuc0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj": {
+    "D:\\Study\\PRN211\\Asm03Solution\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Study\\PRN211\\Asm03Solution\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Study\\PRN211\\Asm03Solution\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\phuc0\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\obj\\",
+        "outputPath": "D:\\Study\\PRN211\\Asm03Solution\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phuc0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj"
+              "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj": {
+    "D:\\Study\\PRN211\\Asm03Solution\\eStore\\eStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj",
+        "projectUniqueName": "D:\\Study\\PRN211\\Asm03Solution\\eStore\\eStore.csproj",
         "projectName": "eStore",
-        "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\eStore.csproj",
+        "projectPath": "D:\\Study\\PRN211\\Asm03Solution\\eStore\\eStore.csproj",
         "packagesPath": "C:\\Users\\phuc0\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\PRN211\\Ass03Solution\\eStore\\obj\\",
+        "outputPath": "D:\\Study\\PRN211\\Asm03Solution\\eStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phuc0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,11 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\BusinessObject\\BusinessObject.csproj"
+              "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\Study\\PRN211\\Asm03Solution\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Study\\PRN211\\Ass03Solution\\DataAccess\\DataAccess.csproj"
+              "D:\\Study\\PRN211\\Asm03Solution\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Study\\PRN211\\Asm03Solution\\DataAccess\\DataAccess.csproj"
               }
             }
           }

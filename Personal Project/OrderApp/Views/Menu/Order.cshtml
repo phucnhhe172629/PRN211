@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Order";
+    Layout = "~/Views/Menu/Layout/_MenuLayout.cshtml";
+    var orders = ViewBag.Orders as List<BusinessObject.Order>;
+}
+
+<div class="row">
+    <div class="col-4">
+
+        <h1>Order</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">
+                        BillId
+                    </th>
+                    <th scope="col">
+                        ProductId
+                    </th>
+                    <th scope="col">
+                        Quantity
+                    </th>
+                    <th scope="col">
+                        Status
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in orders)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BillId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { bid = item.BillId, pid = item.ProductId }) |
+                            @Html.ActionLink("Delete", "Delete", new { bid = item.BillId, pid = item.ProductId })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+            <div style="display: flex; justify-content: center; align-items: center">
+                <strong style="color:red">@ViewBag.Error</strong>
+            </div>
+        </table>
+
+    </div>
+</div>
