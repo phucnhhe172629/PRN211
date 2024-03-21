@@ -58,13 +58,13 @@ namespace DataAccess.DAO
             return orders;
         }
 
-        public List<Order> GetNewOrders()
+        public List<Order> GetOrderList()
         {
             List<Order> orders = null;
             try
             {
                 using var context = new PRNProjectContext();
-                orders = context.Orders.ToList().FindAll(c => c.Status != "Hoàn thành");
+                orders = context.Orders.ToList();
             }
             catch (Exception ex)
             {
@@ -152,6 +152,25 @@ namespace DataAccess.DAO
                 foreach (var item in order)
                 {
                     item.Status = "Hủy theo đơn";
+                    context.Orders.Update(item);
+                }
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public void Completed(int billId)
+        {
+            try
+            {
+                List<Order> order = GetOrdersByBillID(billId);
+                using var context = new PRNProjectContext();
+                foreach (var item in order)
+                {
+                    item.Status = "Hoàn thành";
                     context.Orders.Update(item);
                 }
                 context.SaveChanges();

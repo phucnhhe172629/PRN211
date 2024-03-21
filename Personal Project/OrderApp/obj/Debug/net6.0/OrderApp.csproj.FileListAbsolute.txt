@@ -503,3 +503,14 @@ D:\Study\PRN211\Personal Project\OrderApp\obj\Debug\net6.0\refint\OrderApp.dll
 D:\Study\PRN211\Personal Project\OrderApp\obj\Debug\net6.0\OrderApp.pdb
 D:\Study\PRN211\Personal Project\OrderApp\obj\Debug\net6.0\OrderApp.genruntimeconfig.cache
 D:\Study\PRN211\Personal Project\OrderApp\obj\Debug\net6.0\ref\OrderApp.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\System.Text.Json.dll
+D:\Study\PRN211\Personal Project\OrderApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

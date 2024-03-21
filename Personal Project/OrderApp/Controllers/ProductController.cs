@@ -9,9 +9,14 @@ namespace OrderApp.Controllers
     {
         IProductRepository productRepository = new ProductRepository();
         // GET: productController
-        public ActionResult Index()
+        public ActionResult Index([FromForm] string productname)
         {
             var list = productRepository.GetProducts();
+            if (productname != null)
+            {
+                list = list.ToList()
+                    .FindAll(p => p.ProductName.ToLower().Contains(productname.ToLower()));
+            }
             return View(list);
         }
 

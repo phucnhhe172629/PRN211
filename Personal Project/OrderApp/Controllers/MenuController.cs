@@ -28,7 +28,7 @@ namespace OrderApp.Controllers
         public IActionResult Login([FromForm] string username, [FromForm] string password)
         {
             User user = userRepository.GetUserByAccount(username, password);
-            if (user == null)
+            if (user != null)
             {
                 if (user.Role.Equals("admin"))
                 {

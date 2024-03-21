@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Study\PRN211\Personal Project\OrderApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Study/PRN211/Personal Project/OrderApp/Views/Bill/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Study/PRN211/Personal Project/OrderApp/Views/Bill/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,14 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Study/PRN211/Personal Project/OrderApp/Views/Menu/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxPcmRlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Study/PRN211/Personal Project/OrderApp/Views/Order/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Study/PRN211/Personal Project/OrderApp/Views/Order/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Study/PRN211/Personal Project/OrderApp/Views/Order/Edit.cshtml]

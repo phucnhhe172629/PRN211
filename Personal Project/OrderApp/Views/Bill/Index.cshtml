@@ -5,11 +5,45 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Bill list</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<form asp-action="Index">
+    <div class="row d-flex align-items-end">
+        <div class="form-group col-4">
+            <label for="tableid" class="control-label">Table Id:</label>
+            <input name="tableid" class="form-control " type="number"/>
+        </div>
+        <div class="form-group col-4">
+            <label for="numberofpeople" class="control-label">Number of People:</label>
+            <input name="numberofpeople" class="form-control " type="number" />
+        </div>
+        <div class="form-group col-4">
+            <label for="minprice" class="control-label">Min Price:</label>
+            <input name="minprice" class="form-control " type="number" />
+        </div>
+    </div>
+    <div class="row d-flex align-items-end">
+        <div class="form-group col-4">
+            <label for="timein" class="control-label">Start date:</label>
+            <input name="timein" class="form-control" type="date"/>
+        </div>
+        <div class="form-group col-4">
+            <label for="timeout" class="control-label">End date:</label>
+            <input name="timeout" class="form-control" type="date" />
+        </div>
+        <div class="form-group col-4">
+            <input type="submit" value="Search" class="btn btn-primary" />
+            @Html.ActionLink("Reset", "Index")
+        </div>
+    </div>
+</form>
+
+<div class="row d-flex align-items-end justify-content-end m-2">
+    <div class="form-group col-4">
+        <div class="alert alert-success" role="alert">Total : @ViewBag.total</div>
+    </div>
+</div>
+
 <table class="table">
     <thead>
         <tr>

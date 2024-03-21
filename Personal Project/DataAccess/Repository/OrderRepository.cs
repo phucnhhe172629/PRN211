@@ -23,6 +23,8 @@ namespace DataAccess.Repository
 
         public void DeleteOrder(int billId, int productId) => OrderDAO.Instance.Remove(billId, productId);
 
-        public List<Order> GetNewOrders() => OrderDAO.Instance.GetNewOrders();
+        public List<Order> GetOrderList() => OrderDAO.Instance.GetOrderList();
+
+        public void Completed(int billId) => OrderDAO.Instance.Completed(billId);
     }
 }

@@ -11,19 +11,29 @@ namespace OrderApp.Controllers
     {
         IOrderRepository orderRepository = new OrderRepository();
         // GET: OrderController
-        public ActionResult Index(int? id)
+        public ActionResult Index(int? id, [FromForm] int? bid, [FromForm] int? pid, [FromForm] string status)
         {
-            List<Order> list = null;
+            var list = orderRepository.GetOrderList();
             if (id != null)
             {
-
                 list = orderRepository.GetOrdersByBillID(id.Value);
             }
-            else
+            if (bid != null)
             {
-                list = orderRepository.GetNewOrders();
+                list = list.ToList()
+                    .FindAll(o => o.BillId == bid);
             }
-            return View(list);
+            if (pid != null)
+            {
+                list = list.ToList()
+                    .FindAll(o => o.ProductId == pid);
+            }
+            if (status != null)
+            {
+                list = list.ToList()
+                    .FindAll(o => o.Status.ToLower().Equals(status.ToLower()));
+            }
+            return View(list.OrderByDescending(o => o.BillId));
         }
 
         // GET: OrderController/Details/5

@@ -27,3 +27,4 @@ D:\Study\PRN211\Personal Project\BusinessObject\obj\Debug\net6.0\refint\Business
 D:\Study\PRN211\Personal Project\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
 D:\Study\PRN211\Personal Project\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
 D:\Study\PRN211\Personal Project\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+D:\Study\PRN211\Personal Project\BusinessObject\bin\Debug\net6.0\appsettings.json

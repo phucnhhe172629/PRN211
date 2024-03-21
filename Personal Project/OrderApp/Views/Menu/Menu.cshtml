@@ -69,14 +69,14 @@
                         </li>
 
                     </ul>
-                    <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
+                    <ul class="items list-unstyled clearfix animated fadeInRight showing row" data-animation="fadeInRight" style="position: relative; height: 438px;">
                         @foreach (var p in products)
                         {
                             @foreach(var c in categories)
                             {
                                 if(p.CategoryId == c.CategoryId)
                                 {
-                                    <li class="item @c.CategoryName @c.CategoryMain" style="position: absolute; left: 0px; top: 0px;">
+                                    <li class="item @c.CategoryName @c.CategoryMain col-md-3" style="margin: 2%; position: absolute; left: 0px; top: 0px;">
                                         <a href="/Menu/PlaceOrder?pid=@p.ProductId&bid=@billId">
                                             <img src="@p.Image" alt="">
                                             <div class="overlay"> <span>@p.ProductName</span> </div>
